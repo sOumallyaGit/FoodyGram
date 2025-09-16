@@ -6,3 +6,7 @@ food partner ---> register , login , logout
 
 user ---> food reels , view food items
 food partner ---> list food items
+
+used multer 
+
+and cloud storage provider is image kit

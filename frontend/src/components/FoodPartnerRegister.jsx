@@ -11,6 +11,12 @@ export default function FoodPartnerRegister() {
       <form>
         <label htmlFor="partnerName">Partner Name</label>
         <input type="text" id="partnerName" name="partnerName" autoComplete="organization" />
+        <label htmlFor="contactName">Contact Name</label>
+        <input type="text" id="contactName" name="contactName" autoComplete="name" />
+        <label htmlFor="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" autoComplete="tel" />
+        <label htmlFor="address">Address</label>
+        <input type="text" id="address" name="address" autoComplete="street-address" />
         <label htmlFor="email">Email</label>
         <input type="email" id="email" name="email" autoComplete="email" />
         <label htmlFor="password">Password</label>

@@ -2,6 +2,8 @@ import React from "react";
 import "../theme.css";
 import "../FormPages.css";
 
+import { Link } from "react-router-dom";
+
 export default function UserRegister() {
   return (
     <div className="form-container">
@@ -15,6 +17,10 @@ export default function UserRegister() {
         <input type="password" id="password" name="password" autoComplete="new-password" />
         <button type="submit">Register</button>
       </form>
+      <div style={{ marginTop: "1.5rem", textAlign: "center" }}>
+        <Link to="/food-partner/register" style={{ marginRight: "1rem" }}>Register as Food Partner</Link>
+        <Link to="/user/login">Login as User</Link>
+      </div>
     </div>
   );
 }

@@ -19,3 +19,11 @@ routes -->
 
 /food-partner/register => food partner register form
 /food-partner/login => food partner login form
+
+// food partner credentials for login
+soumallyaDemo@gmail.com
+123456
+
+//user credentials
+test@test.com
+123456
